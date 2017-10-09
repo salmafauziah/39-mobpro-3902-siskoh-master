@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.d3ifcool.SistemBelajarSekolah.activity_buat_soal_tugas">
+
+    <LinearLayout
+        android:id="@+id/deskripsiSoal"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/judulTugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Judul Tugas"
+            android:layout_marginBottom="15dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="15dp">
+
+            <RadioButton
+                android:id="@+id/onSmartphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kerjakan di Smartphone" />
+
+            <RadioButton
+                android:id="@+id/onComputer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kerjakan di Laptop" />
+
+            <RadioButton
+                android:id="@+id/quis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Quis" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/jumlahTugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Jumlah Tugas"
+            android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp">
+
+            <Button
+                android:id="@+id/pickDate"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Pengumpulan"
+                android:layout_marginRight="20dp"
+                android:onClick="pengumpulan"/>
+
+            <TextView
+                android:id="@+id/tvWaktu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="Waktu"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/keteranganTugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Keterangan Tugas"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Selanjutnya" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/isiSoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_submitSoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Soal"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

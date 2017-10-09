@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "249327089718",
+    "firebase_url": "https://sistembelajarsekolah.firebaseio.com",
+    "project_id": "sistembelajarsekolah",
+    "storage_bucket": "sistembelajarsekolah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249327089718:android:ec529ffe27b8cdb2",
+        "android_client_info": {
+          "package_name": "org.d3ifcool.SistemBelajarSekolah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249327089718-meb6p5ed9522g57ia9v2heqfunndekdb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.d3ifcool.SistemBelajarSekolah",
+            "certificate_hash": "63f6fc474bd4559b99d5dff046091c95d1de71fd"
+          }
+        },
+        {
+          "client_id": "249327089718-gc6rior2orhn331qkf4md94tci1momfe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.d3ifcool.SistemBelajarSekolah",
+            "certificate_hash": "48c9e77fbba4b3e8ee9847b3785046313b4227a6"
+          }
+        },
+        {
+          "client_id": "249327089718-3at3t35149idgi9vvssra3a6gdnr2ik8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT6nfQOkDX3-6I0Jekm34lnYSSbb995JE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249327089718-3at3t35149idgi9vvssra3a6gdnr2ik8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

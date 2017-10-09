@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.d3ifcool.SistemBelajarSekolah.activity_beranda_guru">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/trigonometri"
+            android:id="@+id/fotoguru"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_vertical"
+            android:paddingLeft="10dp"
+            android:text="Nama Guru"
+            android:textSize="15dp"
+            android:layout_weight="12"
+            android:id="@+id/namaguru"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:layout_weight="0"
+            android:id="@+id/logout_guru"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="New Quiz"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/btn_newquiz"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="New Task"
+        android:layout_gravity="center"
+        android:id="@+id/btn_newtask"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Upload Materi"
+        android:layout_gravity="center"
+        android:id="@+id/btn_uploadmateri"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Nilai Murid"
+        android:layout_gravity="center"
+        android:id="@+id/btn_nilaimurid"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sistem Belajar Sekolah</string>
+    <string name="sbm_title_confirm">Confirm</string>
+    <string name="sbm_content">Are you sure ?</string>
+    <string name="sbm_oke">Submit</string>
+    <string name="sbm_notOke">Cancel</string>
+    <string name="sbm_succes">Success!!</string>
+    <string name="sbm_fail">Failed!!</string>
+    <string name="str_teacher">Teacher</string>
+    <string name="str_student">Student</string>
+    <string name="str_pickRole">Pick your Role</string>
+</resources>
